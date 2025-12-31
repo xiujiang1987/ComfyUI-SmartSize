@@ -70,7 +70,7 @@ class SmartImageSize:
             multiple: The multiple to snap to (must be positive)
             
         Returns:
-            The value snapped to the nearest multiple
+            The value snapped to the nearest multiple as an integer
             
         Raises:
             ValueError: If multiple is zero or negative, or if value is negative
@@ -80,4 +80,4 @@ class SmartImageSize:
         if value < 0:
             raise ValueError(f"Value must be non-negative, got {value}")
         
-        return round(value / multiple) * multiple
+        return int(round(value / multiple) * multiple)
