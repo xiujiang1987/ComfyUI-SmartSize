@@ -49,7 +49,7 @@ This happens because these models require image dimensions to be multiples of 16
 - Height: 750
 
 **Output:**
-- Width: 1008 (nearest multiple of 16)
+- Width: 992 (nearest multiple of 16)
 - Height: 752 (nearest multiple of 16)
 
 ### Node Details
